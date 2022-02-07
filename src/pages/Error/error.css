@@ -1,0 +1,43 @@
+.container-error {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-error img {
+  max-width: 18.75rem;
+  margin: .875rem 0;
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  10%, 90% {    
+    transform: rotate(-5deg);
+  }
+  20%, 80% {
+    transform: rotate(5deg);
+  }
+  30%, 50%, 70% {
+    transform: rotate(-5deg);
+  }
+  40%, 60% {
+    transform: rotate(5deg);
+  }
+}
+
+.container-erro h1 {
+  color: #FFF;
+}
+
+.container-error a {
+  color: #132742;
+  background-color: #FFF;
+  text-decoration: none;
+  padding: .75rem 1.125rem;
+  border-radius: .25rem;
+  margin: .875rem 0;
+  font-weight: bold;
+}
